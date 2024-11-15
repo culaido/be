@@ -13,6 +13,7 @@
                                 </div>
                             </div>
                             <div class="col-6">
+                                <div>最大入住人數: {{ v.max }}</div>
                                 <div style="font-size:14px; overflow:auto; max-height:200px; padding:5px"><CMarkdown>{{ v['description_zh-TW'] }}</CMarkdown></div>
                                 <div class="mt-3 text-end">
                                     <div>1000$</div>
@@ -26,8 +27,9 @@
 
             </div>
             <div class="col-4">
-                asdasd
-            
+                <div class="bg-white p-4">
+                    asd
+                </div>
             </div>
         </div>
     </div>
